@@ -14,6 +14,6 @@ while($row = mysqli_fetch_assoc($result)){
 </br>
 <center><img src="https://pbs.twimg.com/profile_images/861570304920997888/7ii88n5J_400x400.jpg" alt="Microgame SPA"></center>
 </br>
-<center><h1>I AM THE BACKEND ON [Query: "<?php echo $row['name'] ?>"]</h1></center>
+<center><h1>I AM THE BACKEND ON [Query >] "<?php echo $row['name'] ?>"</h1></center>
 </html>
 <?php } ?>
