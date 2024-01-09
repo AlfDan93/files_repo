@@ -2,7 +2,7 @@
 $username = "query_user";
 $password = "micr0game";
 $database = "TEST";
-$ip = "172.28.5.111";
+$ip = "172.28.3.112";
 $port = "3306";
 $dbc = mysqli_connect($ip, $username, $password, $database, $port);
 $query = "SELECT name FROM test_tbl WHERE name='CLUSTER1'";
