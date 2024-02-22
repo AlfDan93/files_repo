@@ -1,6 +1,6 @@
 <?php
 $username = "query_user";
-$password = "micr0game";
+$password = "";
 $database = "TEST";
 $ip = "172.28.3.112";
 $port = "3306";
